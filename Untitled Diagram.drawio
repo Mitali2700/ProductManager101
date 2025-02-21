@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Page-1" id="Md61JZsTeeddlucKEpSr">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rl_MbabevG-a5jfxMARM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="240" height="640" as="geometry" />
+          <mxGeometry x="80" y="40" width="240" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="rl_MbabevG-a5jfxMARM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="240" height="640" as="geometry" />
+          <mxGeometry x="320" y="40" width="240" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="rl_MbabevG-a5jfxMARM-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="240" height="640" as="geometry" />
+          <mxGeometry x="560" y="40" width="240" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="rl_MbabevG-a5jfxMARM-4" value="User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="60" width="60" height="30" as="geometry" />
@@ -22,8 +22,95 @@
         <mxCell id="rl_MbabevG-a5jfxMARM-6" value="Staff" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rl_MbabevG-a5jfxMARM-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="rl_MbabevG-a5jfxMARM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="sourcePoint" />
+            <mxPoint x="395" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="379.99" as="sourcePoint" />
+            <mxPoint x="385" y="439.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="379.99" />
+              <mxPoint x="350" y="439.99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="405.0032558139535" as="sourcePoint" />
+            <mxPoint x="380" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="405" />
+              <mxPoint x="340" y="490" />
+              <mxPoint x="380" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-8" target="rl_MbabevG-a5jfxMARM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-8" value="Userv B likes the Tweets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-9" target="rl_MbabevG-a5jfxMARM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-9" value="Tweet is broadcasted to the timeline of the followers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-13" target="rl_MbabevG-a5jfxMARM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-13" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Userv A Tweets&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-21" value="Update no of like" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-23" value="Update UI of like button." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-28" target="rl_MbabevG-a5jfxMARM-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="690" />
+              <mxPoint x="333" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-28" target="rl_MbabevG-a5jfxMARM-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="710" />
+              <mxPoint x="333" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rl_MbabevG-a5jfxMARM-28" target="rl_MbabevG-a5jfxMARM-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="730" />
+              <mxPoint x="360" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-28" value="Userv B unlikes the Tweets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-30" value="Update no of like" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-31" value="Update UI of like button." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-32" value="Remove Notification" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl_MbabevG-a5jfxMARM-36" value="" style="shape=offPageConnector;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
